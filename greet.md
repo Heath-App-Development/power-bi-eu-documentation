@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The GREET Power BI report works as the companion to the GREET app which is the replacement for Observation360 \(O360\). The report should be somewhat familiar as it is very similar to the Observation360 report.
+The GREET Power BI report works as the companion to the GREET app which is the replacement for Observation360 \(O360\). The report should be somewhat familiar as it is very similar to the one for Observation360.
 
-Some of the information has been carried over from the O360 report.  While the details of each observation in O360 isn't brought forward, the completion information has.  This means that completion percentage is available back to November of 2018 even if the observation details aren't available in the GREET report.
+Some of the information has been carried over from the O360 app into this report.  While the details of each observation in O360 aren't brought forward, the completion information has.  This means that completion percentage is available back to November of 2018 even if the observation details aren't available in the GREET report.
 
 However, the O360 report will stay in the SBU Management and Field Supervisor Power BI apps for historical reference, so all the detailed information about each observation will still be available.
 

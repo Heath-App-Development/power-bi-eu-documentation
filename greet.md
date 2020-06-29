@@ -8,4 +8,4 @@ The GREET Power BI report works as the companion to the GREET app.  GREET is the
 
 When you first open the report, you will see the Observations page.
 
-![Image](https://heathus.sharepoint.com/:i:/s/ApplicationsSupportReference/EerkjBavbrxCi7ach-XNu94BGJY3oNIs932TYu2YGoOTuA?e=b0ilJe)
+![Observations](https://github.com/Heath-App-Development/power-bi-eu-documentation/blob/master/Images/GREET/msedge_2020-06-29_13-56-21.png)

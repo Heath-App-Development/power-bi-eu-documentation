@@ -97,11 +97,11 @@ The **Observations by Department** & and **Completed Observations** visuals work
 {% hint style="info" %}
 The completion percentage is based on who the supervisor for each employee is at the start of each calendar month.  If an employee is newly hired at any time during the month, the supervisor at hire is assumed to be the supervisor on the first day of that same month for completion percent.
 
-**Example:**  Pete Eckhart is hired, has a first day of work of 7/13/2020 and his supervisor is Rodney Ruxin.  For the purposes of calculating the completion percentage, even though Kevin didn't start until the middle of July, Ruxin is considered to have been his supervisor on July 1.
+**Example:**  Kevin Malone is hired, has a first day of work of 7/13/2020 and his supervisor is Oscar Martinez.  For the purposes of calculating the completion percentage, even though Kevin didn't start until the middle of July, Oscar is considered to have been his supervisor on July 1.
 
 In the case of an employee transferring to a new supervisor on any day of the month after the first, the supervisor on the first day of the month is still considered the supervisor for the whole month for the calculation.
 
-**Example:**  Pete is transferred from Ruxin on 8/2/2020.  His new supervisor is Jenny MacArthur.  For the purposes of the calculation percentage, he is still counted towards Ruxin's completion percentage for August but in September he will be counted towards Jenny MacArthur's completion numbers.
+**Example:**  Kevin is transferred from Oscar on 8/2/2020 and his new supervisor is Angela Martin.  For the purposes of the calculation percentage, Kevin is still counted towards Oscar's completion percentage for August but in September he will be counted towards Angela's completion numbers.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -169,3 +169,28 @@ Below the map is a chart of the number of questions answered for each keyword as
 
 To go back to the page you drilled through from, click the arrow in the circle in the upper left corner of the **GREET Detail** page.
 
+## Calculations
+
+### Any type of count of audits or observations
+
+This is just the simple count of how many audits or observations were done.
+
+### Days left in Month
+
+Tracks how many days are left in the current month.
+
+{% hint style="info" %}
+Due to how the Power BI online service works, all of the servers hosting the reports are set to Coordinated Universal Time (UTC) regardless of where they are physically located.  For this reason, the Days Left In Month calculation will sometimes be one day less than the actual number of days left due to the time change.  For example Eastern Time is five hours behind UTC except during Daylight Savings Time when it's four hours behind.  If someone on Eastern time looks at the report after 8 pm their time, the number of days left will be one less than the actual number because of the time change.  Generally, if you are looking at this report during normal working hours, the number of days left should be right.
+{% endhint %}
+
+### Completion percentages
+
+The number of required observations is the maximum number of Field Techs and Field Tech IIs who worked during a month multiplied by one.
+
+The number of required audits is the maximum number of Field Techs and Field Tech IIs who worked during a month multiplied by three (except for locators).
+
+Regardless of how many observations are done on an employee during the month, the number is reduced to one for this calculation.
+
+With audits, if more than three are done on an employee during the month, the number is reduced to three for this calculation.  Otherwise, the true number of audits is kept.
+
+The completion percentage is simply the adjusted completion totals explained above divided by the number of required observations or audits.

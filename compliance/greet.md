@@ -22,7 +22,7 @@ However, the O360 report will stay in the SBU Management and Field Supervisor Po
 ### New visuals and formatting
 
 * **Completion Pct. by Supervisor** - shows each supervisor's overall completion percentages for both observations and audits, the observation completion percentage goes all the way back to the start of the Observation360 app
-* Both the **Completed Observations** and **Completed Audits** visuals have the background color of the **Result** column coded to match the results show in the Observations by Department & Project visual
+* Both the **Completed Observations** and **Completed Audits** visuals have the background color of the **Result** column coded to match the results show in the **Observations by Department & Project** visual
 * **Remaining Observations** and **Remaining Audits** show the employees that haven't been observed or audited based on the date range selected in the date filter
 * A color coded **Days Left** visual shows the number of calendar days left in the current month
 * On the **GREET** Detail page, several improvements have been made to give some additional detail about the observation or audit that was selected on the main pages
@@ -61,15 +61,15 @@ While the term audit is sometimes used interchangeably with observation, for the
 
 As with all Power BI reports published by Heath, the report pages are listed on the left side near the main navigation bar. Clicking on a page name will bring you to that page.
 
-![](.gitbook/assets/msedge_2020-06-29_16-35-47.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-35-47.png)
 
 Filters are on the right.
 
-![](.gitbook/assets/msedge_2020-06-29_16-37-52.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-37-52.png)
 
 If you want to change how much of your screen the report takes such as if you are presenting and using a projector, choose the view option right above the Filters.
 
-![](.gitbook/assets/msedge_2020-06-29_16-39-56.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-39-56.png)
 
 ## Report pages
 
@@ -77,7 +77,7 @@ If you want to change how much of your screen the report takes such as if you ar
 
 When you first open the report, you will see the Observations page.
 
-![](.gitbook/assets/msedge_2020-06-29_14-38-29.png)
+![](../.gitbook/assets/msedge_2020-06-29_14-38-29.png)
 
 As with every Power BI report, the pages are listed on the left and the filters are on the right.
 
@@ -116,7 +116,7 @@ Because of the way the calculation is done for completion percentage, it's very 
 
 The Audits page is pretty much a carbon copy of the Observations page. The visuals are laid out in the same order and mean the same thing except for audits instead of observations.
 
-![](.gitbook/assets/msedge_2020-06-29_16-18-18.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-18-18.png)
 
 The color coding for the audit results are as follows:
 
@@ -135,11 +135,11 @@ There are a minimum of three audits required for all Field Techs and Field Tech 
 
 The **GREET Detail** page is reached by right clicking on any observation or audit in the respective **Completed Audits/Completed Observations** visual, picking the Drill through option, and then picking **GREET Detail**.
 
-![](.gitbook/assets/msedge_2020-06-29_16-42-30.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-42-30.png)
 
 After drilling through, you will see a page similar to this.
 
-![](.gitbook/assets/msedge_2020-06-29_16-47-12.png)
+![](../.gitbook/assets/msedge_2020-06-29_16-47-12.png)
 
 Because the detail pages for observations and audits look the same, the type of GREET is at the top of the page. In this example, it's an observation.
 

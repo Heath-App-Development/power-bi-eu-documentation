@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The GREET Power BI report works as the companion to the GREET app which is the replacement for Observation360 \(O360\). The report should be somewhat familiar as it is very similar to the Observation360 report.
+The GREET Power BI report works as the companion to the GREET app which is the replacement for Observation360 \(O360\). The report should be somewhat familiar as it is very similar to the one for Observation360.
 
-Some of the information has been carried over from the O360 report.  While the details of each observation in O360 isn't brought forward, the completion information has.  This means that completion percentage is available back to November of 2018 even if the observation details aren't available in the GREET report.
+Some of the information has been carried over from the O360 app into this report.  While the details of each observation in O360 aren't brought forward, the completion information has.  This means that completion percentage is available back to November of 2018 even if the observation details aren't available in the GREET report.
 
-However, the O360 report will stay in the SBU Management and Field Supervisor Power BI apps for historical reference, so all the information will still be available.
+However, the O360 report will stay in the SBU Management and Field Supervisor Power BI apps for historical reference, so all the detailed information about each observation will still be available.
 
 ## Features
 
@@ -21,7 +21,7 @@ However, the O360 report will stay in the SBU Management and Field Supervisor Po
 
 ### New visuals and formatting
 
-* **Completion Pct. by Supervisor** - shows each supervisor's overall completion percentages for both observations and audits.  The observation completion percentage goes all the way back to the start of the Observation360 app.
+* **Completion Pct. by Supervisor** - shows each supervisor's overall completion percentages for both observations and audits, the observation completion percentage goes all the way back to the start of the Observation360 app
 * Both the **Completed Observations** and **Completed Audits** visuals have the background color of the **Result** column coded to match the results show in the Observations by Department & Project visual
 * **Remaining Observations** and **Remaining Audits** show the employees that haven't been observed or audited based on the date range selected in the date filter
 * A color coded **Days Left** visual shows the number of calendar days left in the current month
@@ -42,7 +42,7 @@ If a date range is selected that is less than a month long, the **Observations**
 
 **Example:**  The Date filter is set to Advanced Filtering mode and the date range of 6/1/2020 to 6/15/2020 is put into the filter.  The two visuals will blank out even though observations or audits were done in that time frame.
 
-**Note:**  Until there is data covering more than one month in the app, it will be unknown how the visuals will react when the date span covers a combination of full and partial months.
+**Note:**  Until there is data covering more than one month in the app, it's unknown how the visuals will react when the date span covers a combination of full and partial months.
 {% endhint %}
 
 {% hint style="success" %}
@@ -53,11 +53,11 @@ The best way to avoid this issue is to use the Date filter in Relative date mode
 
 ## Observations vs. audits
 
-While the term audit is sometimes interchangeably with observation, for the purposes of the GREET app and this report, they mean different and specific things.  When referring to either in this document and for use in calculations, observations and audits are defined as follows:
+While the term audit is sometimes used interchangeably with observation, for the purposes of the GREET app and this report, they mean different and specific things.  When referring to either in this document and for use in calculations, observations and audits are defined as follows:
 
 **Observation:**  The observer is present with the employee watching them perform work and filling out the app based on what they see.
 
-**Audit:**  The employee is NOT present and the auditor is looking at work done at any point in the past by an an employee and filling out the app based on what they see.
+**Audit:**  The employee is **NOT** present and the auditor is looking at work done in the past by an employee and filling out the app based on what they see.
 
 ## Report navigation
 
@@ -95,9 +95,9 @@ The **Observations by Department** & and **Completed Observations** visuals work
 **Completion Pct. by Supervisor** is exactly what it sounds like.  It shows the required observation completion percentage for each supervisor, depending on the date range selected in the date filter.
 
 {% hint style="info" %}
-The completion percentage is based on who the supervisor for each employee is at the start of each calendar month.  If an employee is newly hired at any time during the month, the supervisor at hire is assumed to be the supervisor on the first day of that same month for completion percent.
+The completion percentage is based on who the supervisor is for each employee on the 1st day of each calendar month.  If an employee is hired at any time during the month, the supervisor at hire is assumed to be the supervisor on the first day of that same month for completion percent.
 
-**Example:**  Kevin Malone is hired, has a first day of work of 7/13/2020 and his supervisor is Oscar Martinez.  For the purposes of calculating the completion percentage, even though Kevin didn't start until the middle of July, Oscar is considered to have been his supervisor on July 1.
+**Example:**  Pete Eckhart is hired, has a first day of work of 7/13/2020 and his supervisor is Rodney Ruxin.  For the purposes of calculating the completion percentage, even though Pete didn't start until the middle of July, Ruxin is considered to have been his supervisor on July 1.
 
 In the case of an employee transferring to a new supervisor on any day of the month after the first, the supervisor on the first day of the month is still considered the supervisor for the whole month for the calculation.
 
@@ -105,10 +105,10 @@ In the case of an employee transferring to a new supervisor on any day of the mo
 {% endhint %}
 
 {% hint style="warning" %}
-Because of the way the calculation is done for completion percentage, it's very possible that a supervisor might not be able to get 100% completion for every month.  At some point, this calculation might be revisited to take transfer scenarios into account but for the moment, please keep the above examples in mind.
+Because of the way the calculation is done for completion percentage, it's very possible that a supervisor might not be able to get 100% completion for every month.  At some point this calculation might be revisited to take transfer scenarios into account but for the moment, please keep the above examples in mind.
 {% endhint %}
 
-**Completion Pct. by Department** is basically the same thing as the completion percentage by supervisor except it's rolled up to the department level.  It uses the exact same information as the completion calculation for the supervisor.  However, as long as an employee doesn't change to different region at some point during the month, their completion will count toward the region's completion regardless of if they change supervisor or not.
+**Completion Pct. by Department** is basically the same thing as the completion percentage by supervisor except it's rolled up to the department level.  It uses the exact same information as the completion calculation for the supervisor.  However, as long as an employee doesn't change to different region at some point during the month, their completion will count toward the region's completion regardless of if they change supervisor or not \(as long as the new supervisor is in the same department/region\).
 
 **Completed Observations** has been simplified to show only essential information.  The background of the Result column is color coded the same as the **Observations by Department & Project** visual.
 
@@ -130,7 +130,7 @@ The number of required audits and completion percentage is calculated based on t
 
 There are a minimum of three audits required for all Field Techs and Field Tech IIs regardless of if they are locators, leak surveyors, etc.  However, the **audits for locators are done in DigTix and as of this writing, neither the completion, details, or results of those audits are tracked in this report**.
 
-**If a field tech is a locator on the 1st of the month**, regardless if they transfer to a different type of work any day of the month from the 2nd until the end of the month, they **will not have required audits or any completion information showing in this report**.
+**If a field tech is a locator on the 1st of the month**, regardless if they transfer to a different type of work any day of the month from the 2nd until the last day of the month, they **will not have required audits or any completion information showing in this report**.
 {% endhint %}
 
 ### GREET Detail \(hidden\)

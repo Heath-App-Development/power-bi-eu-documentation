@@ -14,8 +14,8 @@
 
 ## Compliance
 
-* [Observation360](compliance/observation360.md)
 * [GREET](compliance/greet.md)
+* [Observation360](compliance/observation360.md)
 
 ## Assets
 

@@ -193,14 +193,14 @@ With audits, if more than three are done on an employee during the month, the nu
 
 The completion percentage is simply the adjusted completion totals explained above divided by the number of required observations or audits.
 
-# Changelog
+## Changelog
 
-## 7/1/2020
+### 7/1/2020
 
 * Verified completion percentage measure
 * Minor labeling changes in tooltips
 * Removed observations and audits not done on Field Techs from the results
 
-## 6/30/2020
+### 6/30/2020
 
 * Initial release

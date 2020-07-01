@@ -145,7 +145,7 @@ Because the detail pages for observations and audits look the same, the type of 
 
 Information such as the employee, supervisor, submitter, project, etc. are listed down the left side of the page.
 
-The sequence of questions, keywords, question text, and responses are in the middle of the page from top to bottom. Reponses are color coded as follows:
+The sequence of questions, keywords, question text, and responses are in the middle of the page from top to bottom. Responses are color coded as follows:
 
 * Favorable response - Aqua.  This means the employee showed the desired behavior for the question.
 * Unfavorable response - Red.  This means the employee showed undesired behavior for the question.
@@ -193,3 +193,14 @@ With audits, if more than three are done on an employee during the month, the nu
 
 The completion percentage is simply the adjusted completion totals explained above divided by the number of required observations or audits.
 
+# Changelog
+
+## 7/1/2020
+
+* Verified completion percentage measure
+* Minor labeling changes in tooltips
+* Removed observations and audits not done on Field Techs from the results
+
+## 6/30/2020
+
+* Initial release

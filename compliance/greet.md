@@ -197,9 +197,12 @@ The completion percentage is simply the adjusted completion totals explained abo
 
 ### 7/1/2020
 
-* Verified completion percentage measure
+* Corrected completion percentage measure for observations
+* Added GREET type to observation and audit pages
+* Added report level filter for GREET type
 * Minor labeling changes in tooltips
 * Removed observations and audits not done on Field Techs from the results
+* Changed true/false in responses to Yes/No
 
 ### 6/30/2020
 

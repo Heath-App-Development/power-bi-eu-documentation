@@ -173,7 +173,7 @@ To go back to the page you drilled through from, click the arrow in the circle i
 
 This is just the simple count of how many audits or observations were done.
 
-### Days left in Month
+### Days Left in Month
 
 Tracks how many days are left in the current month.  The calculation converts the current time and end of the month from Coordinated Universal Time \(UTC\) to Eastern time to avoid the issue caused by the time zone difference.
 

@@ -175,10 +175,12 @@ This is just the simple count of how many audits or observations were done.
 
 ### Days left in Month
 
-Tracks how many days are left in the current month.
+Tracks how many days are left in the current month.  The calculation converts the current time and end of the month from Coordinated Universal Time \(UTC\) to Eastern time to avoid the issue caused by the time zone difference.
 
 {% hint style="info" %}
-Due to how the Power BI online service works, all of the servers hosting the reports are set to Coordinated Universal Time \(UTC\) regardless of where they are physically located. For this reason, the Days Left In Month calculation will sometimes be one day less than the actual number of days left due to the time change. For example Eastern Time is five hours behind UTC except during Daylight Savings Time when it's four hours behind. If someone on Eastern time looks at the report after 8 pm their time, the number of days left will be one less than the actual number because of the time change. Generally, if you are looking at this report during normal working hours, the number of days left should be right.
+The machines that run the Power BI service all use UTC time so when the report refreshes and the date is updated, it's in UTC.  Depending on the time of year and location, UTC time can be as many as 9 hours ahead of the current local time.  For example, during Daylight Savings Time, people in the Pacific time zone will see the counter being one less than it should be based on the current calendar date at 3:00 pm local time.
+
+To correct for this, the current date/time and end of the month date/time are changed to the Eastern time zone.  The date might still be "wrong" on the west coast but that shouldn't happen until well after normal working hours.
 {% endhint %}
 
 ### Completion percentages
@@ -195,6 +197,11 @@ The completion percentage is simply the adjusted completion totals explained abo
 
 ## Changelog
 
+### 7/27/2020
+
+* Days Left in Month calculation changed to use Eastern time instead of UTC
+* Added Submitter to the report level filters
+
 ### 7/1/2020
 
 * Corrected completion percentage measure for observations
@@ -207,3 +214,4 @@ The completion percentage is simply the adjusted completion totals explained abo
 ### 6/30/2020
 
 * Initial release
+

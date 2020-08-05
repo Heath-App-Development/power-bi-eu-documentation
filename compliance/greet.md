@@ -93,13 +93,23 @@ The **Observations by Department** & and **Completed Observations** visuals work
 **Completion Pct. by Supervisor** is exactly what it sounds like. It shows the required observation completion percentage for each supervisor, depending on the date range selected in the date filter.
 
 {% hint style="info" %}
-The completion percentage is based on who the supervisor is for each employee on the 1st day of each calendar month. If an employee is hired at any time during the month, the supervisor at hire is assumed to be the supervisor on the first day of that same month for completion percent.
+The completion percentage is based on who the supervisor is for each employee on the 1st day of each calendar month. If an employee is hired on any day after the first of the month, the supervisor at hire is assumed to be the supervisor on the first day of that same month for completion percent.
 
 **Example:** Kevin Malone is hired, has a first day of work of 7/13/2020 and his supervisor is Oscar Martinez. For the purposes of calculating the completion percentage, even though Kevin didn't start until the middle of July, Oscar is considered to have been his supervisor on July 1.
 
 In the case of an employee transferring to a new supervisor on any day of the month after the first, the supervisor on the first day of the month is still considered the supervisor for the whole month for the calculation.
 
 **Example:** Kevin is transferred from Oscar on 8/2/2020 and his new supervisor is Angela Martin. For the purposes of the calculation percentage, Kevin is still counted towards Oscar's completion percentage for August but in September he will be counted towards Angela's completion numbers.
+
+If an employee is termed for any reason \(resignation or dismissal\) during the month, they will still show up as needing an observation for that month.
+
+**Example:**  Jim is a field tech on 8/1/2020.  On 8/16/2020, his supervisor, Dwight, gets sick of his attitude problems and fires him.  Jim will still show as needing an observation.
+
+The rationale for this is that it's very difficult to predict when an employee's employment with Heath will terminate.  Also, if the term date is known, such as when a two week notice is put in, the expectation is still there that the employee will have an observation done before the employee's last day of work.
+
+Because of the method used to determine who needs an observation each month, it becomes very hard to compare the list of employees during the month to the list for the previous day and drop any employee off that left Heath.  Also, if a supervisor is able to get an observation done on an employee before their last day, that supervisor should get credit for that and have it count in their percentage.
+
+A more detailed explanation of how completion percentage is calculated can be found here.
 {% endhint %}
 
 {% hint style="warning" %}

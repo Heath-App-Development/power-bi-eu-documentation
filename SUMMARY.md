@@ -22,6 +22,10 @@
 * [Asset Overview](assets/asset-overview.md)
 * [HELIX](assets/helix.md)
 
+## Fieldwork
+
+* [DigTix](fieldwork/digtix.md)
+
 ## Hours
 
 * [Hours Summary](hours/hours-summary.md)

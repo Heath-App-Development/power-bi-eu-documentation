@@ -24,7 +24,7 @@ The charts on these pages will be explained in more detail below.
 
 ## Information in the report:
 
-As noted in the introduction, the information in this report is **not** real-time.  Early every morning DigTix sends us a file that has the information for every ticket that's in their system as of the time that they generated the file.  On our end we pick up the file, automatically process it, and put the results into a place that the report refreshes from.  The report refresh only happens once a day, at 6:30 a.m. Central time.
+As noted in the introduction, the information in this report is **not** real-time.  Early every morning DigTix sends us a file that has the information for every ticket that's in their system when they generate the file.  On our end we pick up the file, automatically process it, and put the results into a place that the report refreshes from.  The report refresh only happens once a day, at 6:30 a.m. Central time.
 
 The tickets go all the way back to 7/26/2018 which is the first day that we were live with DigTix.
 

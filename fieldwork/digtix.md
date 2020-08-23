@@ -8,12 +8,11 @@ The report is **not** intended to replace DigTix for the day-to-day management o
 
 ## Report contents
 
-As of this writing, the report has four visible pages:
+As of this writing, the report has three visible pages:
 
 * Ticket Summary
 * Force To Load
 * Performance
-* Force To Load Alternate
 
 There are two hidden pages that can be reached by drillthrough:
 
@@ -89,23 +88,21 @@ Report level filters \(available on all pages\):
 * Date
 * Department
 * Project
+* Assigned User
+* Assigned Team
 * Employee
 * Supervisor
-
-Page level filters \(available on specific pages\):
-
-* CDC \(**Performance\)**
-* Assigned User \(**Performance\)**
-* Assigned Team \(**Performance\)**
-* Excavator \(**Performance\)**
-* Facility Owner \(**Performance\)**
-* One Call Center \(**Performance\)**
+* One Call Center
+* Facility Owner
+* CDC
+* Closecode
+* Excavator
 
 ### Pre-filtering
 
 It's highly recommended that before you click through to different pages of the report, set some filters to narrow down the amount of tickets that the report will have to display.  There's a visual on the **Performance** page that **will** crash and error out if filters aren't applied.  As of this writing \(8/20/2020\) there are almost 4.5 million tickets in the dataset.
 
-The first ones I would set are the Supervisor and Project filters if you're a Field Supervisor.  If you're an Area Manager, pick the supervisors that report to you.
+The first ones I would set are the Supervisor and Project filters or possibly even Assigned Team if you're a Field Supervisor.  If you're an Area Manager, pick the supervisors that report to you or whatever combo of filters works to show the people that you want to see.
 
 In this report the date filter is very important too.  We haven't tested to find what the largest date range we can pick without crashing that visual but if you stay within the last 90 or so days you should be OK even if you don't set any other filters.
 
@@ -336,12 +333,6 @@ You'll end up on a page with more details about the ticket you picked.
 ![Ticket Detail page](../.gitbook/assets/msedge_2020-08-21_18-57-34.png)
 
 To get out of this page, click the arrow in the circle.  This takes you back to the Closecode Drillthrough page.  From there you can pick another ticket to look at or you can go back to the Performance page by clicking the arrow in the circle.
-
-### Force To Load Alternate
-
-I'm going to be 100% honest with everyone.  This page is completely useless.  The only reason it's on here is because I forgot to delete it.  Which I will do when it's time to make the improvements to this report.
-
-Kindly disregard that report page.  It's embarrassing.
 
 ## FAQs
 

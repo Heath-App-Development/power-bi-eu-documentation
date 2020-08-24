@@ -189,7 +189,7 @@ Number of completed tickets divided by number of hours.  The hours come from the
 {% hint style="warning" %}
 There are two main things to know about this calculation.
 
-One, the hours are updated every Monday and when they're updated, they're only updated through the second most recent pay period.  The easiest way to think of it is the hours that are on your most recent paycheck.  This means the hours can lag behind the number of completed tickets for up to 15 days.  There are technical reasons for this which won't be explained here but for now there's no way around this limitation.
+One, the hours are updated every Monday and when they're updated, they're only updated through the second most recent pay period.  The easiest way to think of it is the hours that are on your most recent paycheck.  This means the hours can lag behind the number of completed tickets for up to 15 days.  There are technical reasons for this which won't be explained here but for now there's no way around this limitation.  Since the report refreshes once a day at 6:30 a.m., the earliest the updated hours will show is each Tuesday.
 
 Two, because of this, there's a second closed ticket calculation in the main table on this page.  It's called Closed With Hours and it's the number of tickets that were closed up through the most recent day that we have hours for.  This number will usually be less than what's in the Closed column in the same table.
 

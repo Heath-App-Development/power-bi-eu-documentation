@@ -21,6 +21,7 @@
 
 * [Asset Overview](assets/asset-overview.md)
 * [HELIX](assets/helix.md)
+* [Emkay](assets/emkay.md)
 
 ## Fieldwork
 

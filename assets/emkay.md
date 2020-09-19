@@ -117,7 +117,7 @@ No.  All POVs are marked as Kias in the Emkay file and are filtered out as part 
 
 Yes.  Trailers, 4-wheelers, and other special types of vehicles are included in the vehicle count.
 
-### Changelog
+## Changelog
 
 ### 9/21/2020
 

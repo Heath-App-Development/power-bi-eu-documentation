@@ -128,24 +128,6 @@ Total Regular Hours plus Total Overtime Hours.
 
 \(Total Overtime Hours divided by Total Working Hours\) x 100
 
-Sum of hours column in the Payroll Hour table which have “Other” as an hour type.
-
-Other hours are defined as all PTO, PTI, and Holiday hours
-
-Sum of hours in the Payroll Hour table which have “Regular” as an hour type
-
-Regular hours are defined as all hours not classified as “Other” up to 40 hours per week outside of California or 8 hours a day in California
-
-Sum of hours in the Payroll Hour table which have “Overtime” as an hour type
-
-Overtime hours are defined as the “Regular” hours in excess of 40 hours per week outside of California or 8 hours a day in California
-
-TriNet automatically calculates the amount of overtime hours and displays it in a separate column in the report that we use
-
-Total Regular Hours plus Total Overtime Hours
-
-\(Total Overtime Hours divided by Total Working Hours\) x 100
-
 ### Overtime Study
 
 ![Overtime Study page](../.gitbook/assets/msedge_2020-09-22_16-39-14.png)

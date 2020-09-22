@@ -7,9 +7,9 @@ This report gathers payroll hour information from TriNet and turns it into chart
 At the moment we aren't able to drill down to the number of hours per day.  Instead the hours are shown as being on the Saturday for each week as that is the last day of each pay period.
 
 {% hint style="info" %}
-DFS uses Sunday as the last day of the pay period.  For anyone who has hours for DFS, the hours are shown on Saturday as well.
+DFS uses Sunday as the last day of the pay period.  In the case of anyone who has hours for DFS, the hours are shown on Saturday as well.
 
-Example:  The Heath pay period for this week ends on Saturday, 9/26/2020.  The DFS pay period for this week ends on Sunday, 9/27/2020.  **For the purposes of this report only**, the DFS hours for this week will be included with the Heath hours and the date will show as 9/26/2020.
+Example:  The Heath pay period for this week ends on Saturday, 9/26/2020.  The DFS pay period for this week ends on Sunday, 9/27/2020.  **For the purposes of this report only**, the DFS hours for this week will be included with the Heath hours for this week and the date will show as 9/26/2020.
 {% endhint %}
 
 ## Report contents

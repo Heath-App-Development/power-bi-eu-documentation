@@ -29,7 +29,7 @@
 
 ## Hours
 
-* [Hours Summary](hours/hours-summary.md)
+* [Hours](hours/hours-summary.md)
 
 ## CheckIn
 

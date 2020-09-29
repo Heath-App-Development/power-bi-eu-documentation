@@ -57,19 +57,17 @@ Report level filters \(available on all pages\):
 
 ### Vehicle Status
 
-![Vehicle Status page](../.gitbook/assets/msedge_2020-09-18_16-29-24.png)
+![Vehicle Status page](../.gitbook/assets/msedge_2020-09-29_09-57-50.png)
 
 This page shows vehicle information at a glance.
 
 The date next to "Vehicle Status on" updates whenever a new file is sent by Emkay.  It does NOT update based on what day it is.  For example, Emkay sent a file this morning, 9/18/2020.  If for some reason they don't send a file tomorrow morning, the date will still show as 9/18/2020 even though the actual date is 9/19/2020.  The date will then update whenever the next file is sent, regardless of if it's days, weeks, months, or even years.
 
-On the left side of the page there's a horizontal bar chart that shows the number of vehicles in each department at the top level.  If you drill down, you can see how many are in each project.
+On the left side of the page there's a horizontal bar chart that shows the number of vehicles and headcount in each department at the top level.  If you drill down, you can see how many are in each project.
 
-![At Department level](../.gitbook/assets/msedge_2020-09-18_16-39-04.png)
+![Vehicle count and Headcount by department](../.gitbook/assets/msedge_2020-09-29_09-52-45.png)
 
-![Hover over the top of the visual, then click on the forked arrow to drill down](../.gitbook/assets/msedge_2020-09-18_16-40-51.png)
-
-![At Project level](../.gitbook/assets/msedge_2020-09-18_16-40-15.png)
+![Vehicle count and Headcount by project](../.gitbook/assets/msedge_2020-09-29_09-53-29.png)
 
 The map shows the last reported location of the vehicle according to the Emkay file.  It is important to note that these are not GPS coordinates, they are taken from the City and State field from the Driver file.  The dots are colored by project.  You can zoom in and out by putting your cursor over the map and using the mouse wheel.  Or, you can click on the yellow circle with the three black lines and use the options there to find or select parts of the map.
 
@@ -84,6 +82,10 @@ Above the map are four tiles that have basic calculations.
 #### Vehicle Count -
 
 The number of vehicles in the fleet according to Emkay.
+
+#### Headcount -
+
+The number of active employees on that day.
 
 #### Vehicles On Order -
 
@@ -117,7 +119,15 @@ No.  All POVs are marked as Kias in the Emkay file and are filtered out as part 
 
 Yes.  Trailers, 4-wheelers, and other special types of vehicles are included in the vehicle count.
 
+### Why is the headcount different than the headcount on the turnover report?
+
+The headcount on this report is unofficial because it comes from a script that copies information from our Active Directory to a database on a daily basis.  The headcount on the turnover report is from HCM which is the official source and it's only captured on the first and last day of each month.
+
 ## Changelog
+
+### 9/29/2020
+
+* Added headcount
 
 ### 9/21/2020
 

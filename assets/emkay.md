@@ -53,6 +53,10 @@ Report level filters \(available on all pages\):
 * Vehicle Number
 * Driver
 
+Page level filters \(available on the noted page\):
+
+* Vehicle In Service - Vehicle Status
+
 ## Report pages
 
 ### Vehicle Status
@@ -69,7 +73,7 @@ On the left side of the page there's a horizontal bar chart that shows the numbe
 
 ![Vehicle count and Headcount by project](../.gitbook/assets/msedge_2020-09-29_09-53-29.png)
 
-The map shows the last reported location of the vehicle according to the Emkay file.  It is important to note that these are not GPS coordinates, they are taken from the City and State field from the Driver file.  The dots are colored by project.  You can zoom in and out by putting your cursor over the map and using the mouse wheel.  Or, you can click on the yellow circle with the three black lines and use the options there to find or select parts of the map.
+The map shows the last reported location of the vehicle according to the Emkay file.  It is important to note that these are not GPS coordinates, they are taken from the City and State field from the vehicle file.  The dots are colored by project.  You can zoom in and out by putting your cursor over the map and using the mouse wheel.  Or, you can click on the yellow circle with the three black lines and use the options there to find or select parts of the map.
 
 Below the map is the vehicle information in table view.  There shouldn't be any duplicate vehicle numbers as the information shown is only the most recent information that's in the Emkay file.
 
@@ -109,7 +113,9 @@ The reason both the median and average months of service is shown is because the
 
 ### Are termed vehicles included in the vehicle count?
 
-No.  Even though those vehicles are visible in the table, they aren't included in the vehicle count.
+No.  Even though those vehicles are visible in the table, they aren't included in the vehicle count.  To hide them from the table, use the Vehicle In Service filter on the Vehicle Status page.  Choosing Yes will filter the Vehicle Status page so that only active vehicles show in the table below the map.  Choosing No will show only Termed vehicles in the table below the map.
+
+Keep in mind though that termed vehicles will NEVER show in the vehicle count.
 
 ### Are POVs included in the vehicle count?
 
@@ -124,6 +130,10 @@ Yes.  Trailers, 4-wheelers, and other special types of vehicles are included in 
 The headcount on this report is unofficial because it comes from a script that copies information from our Active Directory to a database on a daily basis.  The headcount on the turnover report is from HCM which is the official source and it's only captured on the first and last day of each month.
 
 ## Changelog
+
+### 10/19/2020
+
+* Added Vehicle In Service page level filter \(suggested by Jon Tyler & Amanda Crowder\)
 
 ### 9/29/2020
 

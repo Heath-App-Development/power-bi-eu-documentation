@@ -109,7 +109,7 @@ The rationale for this is that it's very difficult to predict when an employee's
 
 Because of the method used to determine who needs an observation each month, it becomes very hard to compare the list of employees during the month to the list for the previous day and drop any employee off that left Heath.  Also, if a supervisor is able to get an observation done on an employee before their last day, that supervisor should get credit for that and have it count in their percentage.
 
-A more detailed explanation of how completion percentage is calculated can be found here.
+A more detailed explanation of how completion percentage is calculated can be found [here](https://heathus.sharepoint.com/sites/powerbitipstricksandanswers/SitePages/How-are-completion-percentages-calculated-again-.aspx).
 {% endhint %}
 
 {% hint style="warning" %}

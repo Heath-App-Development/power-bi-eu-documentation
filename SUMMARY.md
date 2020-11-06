@@ -17,6 +17,10 @@
 * [GREET](compliance/greet.md)
 * [Observation360](compliance/observation360.md)
 
+## Claims
+
+* [ICM](claims/icm.md)
+
 ## Assets
 
 * [Asset Overview](assets/asset-overview.md)

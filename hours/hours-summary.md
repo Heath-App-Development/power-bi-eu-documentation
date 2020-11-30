@@ -162,6 +162,24 @@ Example:  With no filters applied, pretend that 30.0 is the highest value in the
 This can be changed to rule based colors if that works better for everyone.  An example would be that any value less than x is a certain color, any value between x and y is another color, any value between y and z is a third color and so on.  Let your chain of command know so they can suggest it as a report change and define the color bands.
 {% endhint %}
 
+### Hours Detail
+
+The Hours Detail page has been added to give supervisors and managers an easy way to get hours information for their employees.
+
+{% hint style="danger" %}
+When the page first loads, you will see the following error:  Visual has exceeded the available resources
+{% endhint %}
+
+![Hour Detail error message on first load](../.gitbook/assets/chrome_2020-11-30_14-38-51.png)
+
+This is normal and expected.  There is just too much information for the visual to render properly when it loads.
+
+However, setting a filter such as a date range, department, project, or supervisor will get the visual to show properly.
+
+![Hours Detail with filter applied](../.gitbook/assets/chrome_2020-11-30_14-41-24.png)
+
+Picking one or more filters cuts the amount of data down enough so that information will show in the visual.  In the example, picking a project populated the visual with the data.  Any of the filters that are available can be used on this page.
+
 ## FAQs
 
 ### Can't see employee info on the Hours Summary page?
@@ -175,4 +193,8 @@ We will address this when we overhaul the data architecture and hopefully we'll 
 ### 9/22/2020
 
 * Initial release
+
+### 11/30/2020
+
+* Added Hours Detail page
 

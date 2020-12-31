@@ -16,6 +16,7 @@
 
 * [GREET](compliance/greet.md)
 * [Observation360](compliance/observation360.md)
+* [Training](compliance/training.md)
 
 ## Claims
 

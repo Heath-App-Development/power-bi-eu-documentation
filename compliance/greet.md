@@ -207,6 +207,10 @@ The completion percentage is simply the adjusted completion totals explained abo
 
 ## Changelog
 
+### 1/26/2021
+
+* Locators in the TECO project show in the required audits to accommodate their audits being done in GREET instead of DigTix
+
 ### 7/27/2020
 
 * Days Left in Month calculation changed to use Eastern time instead of UTC
